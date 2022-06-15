@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "Flight.proto";
+
+message Example {
+  arrow.flight.protocol.Location location = 1;
+}
